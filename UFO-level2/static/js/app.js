@@ -35,8 +35,8 @@ filterButton.on("click", function() {
     // Use fileter function to filter out the output of ufo data
     var filteredData = ufoData.filter(ufoData => ufoData.datetime === inputValue);
   }
-    
-  console.log(d3.select("#city"));
+  // Check if the selected input can be picked up outside of if section   
+  // console.log(d3.select("#city"));
   
     else if (inputElement = d3.select("#city")) {
     var inputValue = inputElement.property("value");
